@@ -85,8 +85,14 @@ body {
 	font-weight: 700
 }
 
+.aside__navbar--item > img {
+  width: 50px;
+	height: 50px;
+	object-fit: cover
+}
+
 .aside__navbar--item:hover > img {
-  transform: scale(1.1)
+  opacity: .7
 }
 
 .aside__navbar--item > a {
